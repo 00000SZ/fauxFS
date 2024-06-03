@@ -1,6 +1,6 @@
 # fauxFS
 
-fauxFS is a utility to generate a large number of random files and directories to help troubleshoot filesystem inode usage issues. It includes options to specify the number of files, maximum file size, and an option to generate files with the EICAR Anti-Malware test file signature.
+fauxFS is a utility to rapidly generate a large number of random files and directories. It includes options to specify the number of files, maximum file size, and an option to generate files with the EICAR Anti-Malware test file signature.
 
 ## Features
 
