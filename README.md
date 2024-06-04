@@ -12,7 +12,7 @@ fauxFS is a utility to rapidly generate a large number of random files and direc
 
 Let's see it in action
 
-![Demo](https://github.com/00000sz/fauxFS/blob/master/.img/demo.gif)
+![Demo](https://github.com/00000sz/fauxFS/blob/main/.img/demo.gif)
 
 ## Build Instructions
 
