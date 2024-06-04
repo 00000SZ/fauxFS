@@ -112,8 +112,8 @@ fn main() -> std::io::Result<()> {
     let max_size: usize = args[3].parse().expect("Max size should be a number");
 
     println!("{}", "------------------------------------------".blue());
-    println!("{}", "File Creation Script".bold().green());
-    println!("{}", "Developed by N Collins - ncollins@fortinet.com".bold().green());
+    println!("{}", "fauxFS".bold().green());
+    println!("{}", "N Collins - ncollins@fortinet.com".bold().green());
     println!("{}", "------------------------------------------".blue());
 
     if !confirm_prompt(count, max_size) {
@@ -132,8 +132,8 @@ fn main() -> std::io::Result<()> {
         Ok((total_size, inodes)) => {
             let inode_usage = get_inode_usage(base_path)?;
             println!("{}", format!("Filesystem inode usage: {}", format_number(inode_usage as usize)).cyan());
-            println!("{}", format!("Total size of created files: {}", human_readable_size(total_size)).cyan());
-            println!("{}", format!("Total inodes used by created files: {}", format_number(inodes as usize)).cyan());
+//            println!("{}", format!("Total size of created files: {}", human_readable_size(total_size)).cyan());
+//            println!("{}", format!("Total inodes used by created files: {}", format_number(inodes as usize)).cyan());
         },
         Err(e) => eprintln!("{}", format!("Error creating files: {}", e).red()),
     }
