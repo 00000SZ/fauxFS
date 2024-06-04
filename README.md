@@ -10,6 +10,10 @@ fauxFS is a utility to rapidly generate a large number of random files and direc
 - Displays progress with a spinner and progress bar.
 - Provides statistics on the total size, average file size, and inode usage.
 
+Let's see it in action
+
+![Demo](https://github.com/00000sz/fauxFS/blob/master/.img/demo.gif)
+
 ## Build Instructions
 
 ### Prerequisites
