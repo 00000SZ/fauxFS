@@ -1,0 +1,38 @@
+# Compiled output
+/target/
+
+# Rust/Cargo
+**/*.rs.bk
+Cargo.lock
+.cargo/config
+
+# Specific files and directories related to IDEs
+.idea/
+.vscode/
+*.iml
+
+# MacOS
+.DS_Store
+
+# Linux
+*.lock
+*.so
+*.dylib
+*.dll
+
+# Binaries for programs and plugins
+*.exe
+*.local
+*.pdb
+
+# Avoid committing executables
+*.exe
+*.out
+*.class
+*.bin
+*.o
+*.d
+
+# Directory for toolchain binaries
+/.tool-versions
+
